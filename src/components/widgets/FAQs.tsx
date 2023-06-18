@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { IconArrowDownRight } from "~/components/icons/IconArrowDownRight"
+import { IconArrowDownRight } from "~/components/icons/IconArrowDownRight";
 
 export default component$(() => {
   const items = [
@@ -64,7 +64,10 @@ export default component$(() => {
                       {question}
                     </h3>
                     {answer.split("\n\n").map((paragraph, index3) => (
-                      <p key={index3} class="text-gray-700 dark:text-gray-400 mb-2">
+                      <p
+                        key={index3}
+                        class="text-gray-700 dark:text-gray-400 mb-2"
+                      >
                         {paragraph}
                       </p>
                     ))}

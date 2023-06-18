@@ -1,6 +1,6 @@
 import { component$, useStore, useVisibleTask$ } from "@builder.io/qwik";
-import { IconSun } from "~/components/icons/IconSun"
-import { IconMoon } from "~/components/icons/IconMoon"
+import { IconSun } from "~/components/icons/IconSun";
+import { IconMoon } from "~/components/icons/IconMoon";
 
 interface ItemProps {
   iconClass?: string;
@@ -15,8 +15,7 @@ export default component$((props: ItemProps) => {
   });
 
   useVisibleTask$(() => {
-    store.theme =
-      document.documentElement.classList.contains("dark")
+    store.theme = document.documentElement.classList.contains("dark")
       ? "dark"
       : "light";
   });

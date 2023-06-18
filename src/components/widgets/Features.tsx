@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { IconStar } from "~/components/icons/IconStar"
+import { IconStar } from "~/components/icons/IconStar";
 
 export default component$(() => {
   const items = [

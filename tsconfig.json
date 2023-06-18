@@ -21,6 +21,6 @@
       "~/*": ["./src/*"]
     }
   },
-  "files": ["./.eslintrc.cjs"],
+  "files": ["./eslint.config.js", "./prettier.config.js", "./stylelint.config.js"],
   "include": ["src"]
 }
