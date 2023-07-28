@@ -35,8 +35,8 @@ devDependencies:
     specifier: 0.5.9
     version: 0.5.9(tailwindcss@3.3.2)
   '@types/eslint':
-    specifier: 8.40.2
-    version: 8.40.2
+    specifier: 8.44.1
+    version: 8.44.1
   '@types/markdown-it':
     specifier: 12.2.3
     version: 12.2.3
@@ -2334,8 +2334,8 @@ packages:
     dependencies:
       '@types/ms': 0.7.31
 
-  /@types/eslint@8.40.2:
-    resolution: {integrity: sha512-PRVjQ4Eh9z9pmmtaq8nTjZjQwKFk7YIHIud3lRoKRBgUQjgjRmoGxxGEPXQkF+lH7QkHJRNr5F4aBgYCW0lqpQ==}
+  /@types/eslint@8.44.1:
+    resolution: {integrity: sha512-XpNDc4Z5Tb4x+SW1MriMVeIsMoONHCkWFMkR/aPJbzEsxqHy+4Glu/BqTdPrApfDeMaXbtNh6bseNgl5KaWrSg==}
     dependencies:
       '@types/estree': 1.0.1
       '@types/json-schema': 7.0.12
