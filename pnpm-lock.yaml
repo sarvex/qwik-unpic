@@ -41,8 +41,8 @@ devDependencies:
     specifier: 12.2.3
     version: 12.2.3
   '@types/node':
-    specifier: 20.4.5
-    version: 20.4.5
+    specifier: 20.5.0
+    version: 20.5.0
   '@typescript-eslint/eslint-plugin':
     specifier: 6.2.1
     version: 6.2.1(@typescript-eslint/parser@6.2.1)(eslint@8.46.0)(typescript@5.1.6)
@@ -75,7 +75,7 @@ devDependencies:
     version: 31.2.1
   vite:
     specifier: 4.4.8
-    version: 4.4.8(@types/node@20.4.5)
+    version: 4.4.8(@types/node@20.5.0)
   vite-tsconfig-paths:
     specifier: 4.2.0
     version: 4.2.0(typescript@5.1.6)(vite@4.4.8)
@@ -858,7 +858,7 @@ packages:
   /@types/node-fetch@2.6.3:
     resolution: {integrity: sha512-ETTL1mOEdq/sxUtgtOhKjyB2Irra4cjxksvcMUR5Zr4n+PxVhsCD9WS46oPbHL3et9Zde7CNRr+WUNlcHvsX+w==}
     dependencies:
-      '@types/node': 20.4.5
+      '@types/node': 20.5.0
       form-data: 3.0.1
     dev: true
 
@@ -866,8 +866,8 @@ packages:
     resolution: {integrity: sha512-qelS/Ra6sacc4loe/3MSjXNL1dNQ/GjxNHVzuChwMfmk7HuycRLVQN2qNY3XahK+fZc5E2szqQSKUyAF0E+2bg==}
     dev: true
 
-  /@types/node@20.4.5:
-    resolution: {integrity: sha512-rt40Nk13II9JwQBdeYqmbn2Q6IVTA5uPhvSO+JVqdXw/6/4glI6oR9ezty/A9Hg5u7JH4OmYmuQ+XvjKm0Datg==}
+  /@types/node@20.5.0:
+    resolution: {integrity: sha512-Mgq7eCtoTjT89FqNoTzzXg2XvCi5VMhRV6+I2aYanc6kQCBImeNaAYRs/DyoVqk1YEUJK5gN9VO7HRIdz4Wo3Q==}
     dev: true
 
   /@types/semver@7.5.0:
@@ -5101,13 +5101,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.1.6)
-      vite: 4.4.8(@types/node@20.4.5)
+      vite: 4.4.8(@types/node@20.5.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@4.4.8(@types/node@20.4.5):
+  /vite@4.4.8(@types/node@20.5.0):
     resolution: {integrity: sha512-LONawOUUjxQridNWGQlNizfKH89qPigK36XhMI7COMGztz8KNY0JHim7/xDd71CZwGT4HtSRgI7Hy+RlhG0Gvg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -5135,7 +5135,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.4.5
+      '@types/node': 20.5.0
       esbuild: 0.18.16
       postcss: 8.4.27
       rollup: 3.26.3
