@@ -29,8 +29,8 @@ dependencies:
 
 devDependencies:
   '@divriots/jampack':
-    specifier: 0.20.1
-    version: 0.20.1(react-dom@16.14.0)(react@16.14.0)
+    specifier: 0.20.2
+    version: 0.20.2(react-dom@16.14.0)(react@16.14.0)
   '@tailwindcss/typography':
     specifier: 0.5.10
     version: 0.5.10(tailwindcss@3.3.3)
@@ -71,8 +71,8 @@ devDependencies:
     specifier: 5.2.2
     version: 5.2.2
   vercel:
-    specifier: 32.2.2
-    version: 32.2.2
+    specifier: 32.2.3
+    version: 32.2.3
   vite:
     specifier: 4.4.9
     version: 4.4.9(@types/node@20.6.0)
@@ -149,8 +149,8 @@ packages:
       whatwg-mimetype: 3.0.0
     dev: true
 
-  /@divriots/jampack@0.20.1(react-dom@16.14.0)(react@16.14.0):
-    resolution: {integrity: sha512-ryao4kLWf5x2pmj/rCCeftlFVtR+wteGd07JB0aYW6gez/rHqqVhafQcKMEEcMXQYVbKNhtWzi4NrNAUzk4dBA==}
+  /@divriots/jampack@0.20.2(react-dom@16.14.0)(react@16.14.0):
+    resolution: {integrity: sha512-6ovo+NQ7W+jeESbedMkquHJbNYcnTM9qS+kjLxUdeM+Qwcaz99UlXH0qoBCIng3Kb6ruVOGhM6/J2Ak+gBO/Ow==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -1248,8 +1248,8 @@ packages:
       ts-morph: 12.0.0
     dev: true
 
-  /@vercel/next@4.0.4:
-    resolution: {integrity: sha512-XTuo1TWi6rR0UX23Q47goGcVqcHzwBRX6XcOe2FS0HQcAE0WYu2/Hc78JiHQRbd5SgDjAJXfFWl/kQYUhnZ6rw==}
+  /@vercel/next@4.0.5:
+    resolution: {integrity: sha512-wdRiMqfr//KPEzEJYlQ0Ri4SFbPdnoEJdpktdmaxAK7bREvkJeeCjFAkqBDGb1OiqjyKolxF1xwMewRvLj80MQ==}
     dev: true
 
   /@vercel/nft@0.22.5:
@@ -5371,15 +5371,15 @@ packages:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
     dev: true
 
-  /vercel@32.2.2:
-    resolution: {integrity: sha512-00k+/ZfGFjOWM/fobVlJcW56+LUnZC/0MyoeEvLncmjq2jMyDW3qI2ol9R9wGo93FwOUJodPtGnfaV/MO6Ufug==}
+  /vercel@32.2.3:
+    resolution: {integrity: sha512-42RKAYRYESlmKzc/OwTAT8dUyYqphMIMM2giJgTS0GQb5IA/I7g7iXQRmb1MNZlmtwZx47b9YxuYgrLOAo+uLQ==}
     engines: {node: '>= 16'}
     hasBin: true
     dependencies:
       '@vercel/build-utils': 7.2.0
       '@vercel/go': 3.0.1
       '@vercel/hydrogen': 1.0.1
-      '@vercel/next': 4.0.4
+      '@vercel/next': 4.0.5
       '@vercel/node': 3.0.5
       '@vercel/python': 4.0.1
       '@vercel/redwood': 2.0.2
