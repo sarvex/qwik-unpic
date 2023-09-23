@@ -15,8 +15,8 @@ dependencies:
     specifier: 5.0.8
     version: 5.0.8
   '@unpic/qwik':
-    specifier: 0.0.25
-    version: 0.0.25(@builder.io/qwik@1.2.12)
+    specifier: 0.0.26
+    version: 0.0.26(@builder.io/qwik@1.2.12)
   gray-matter:
     specifier: 4.0.3
     version: 4.0.3
@@ -1197,8 +1197,8 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@unpic/qwik@0.0.25(@builder.io/qwik@1.2.12):
-    resolution: {integrity: sha512-8YvmmOwk7dWdtAlZFiNM+z7SWHJ/M6uoleVr8y82eeu2yxPvr5n8kUgG1MdXX+re0RBtumF1vfEe4GP2UJoFMg==}
+  /@unpic/qwik@0.0.26(@builder.io/qwik@1.2.12):
+    resolution: {integrity: sha512-MjABJCYSo9efWvvUC5glNjlPlGPQwONB1Pvk09kusEnmFrg2c+sV7JZgb6TWVnzYMMTPL32KPRohgDbsDnd0uw==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '*'
