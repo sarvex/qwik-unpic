@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@builder.io/qwik':
     specifier: 1.2.13
-    version: 1.2.13(undici@5.23.0)
+    version: 1.2.13(undici@5.25.4)
   '@builder.io/qwik-city':
     specifier: 1.2.13
     version: 1.2.13
@@ -102,13 +102,13 @@ packages:
       svgo: 3.0.2
       vfile: 6.0.1
       vite-imagetools: 5.0.7
-      zod: 3.21.4
+      zod: 3.22.4
     transitivePeerDependencies:
       - rollup
       - supports-color
     dev: false
 
-  /@builder.io/qwik@1.2.13(undici@5.23.0):
+  /@builder.io/qwik@1.2.13(undici@5.25.4):
     resolution: {integrity: sha512-JVBBfkoFNGDd6BZzuk8k2rS+Td9SLngZWk0j6lJCQNPj548vA4DdERlUM+iHe3BYq2q7A3oMo63vUF74h42gDw==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -116,7 +116,7 @@ packages:
       undici: ^5.14.0
     dependencies:
       csstype: 3.1.2
-      undici: 5.23.0
+      undici: 5.25.4
     dev: false
 
   /@cspotcode/source-map-support@0.8.1:
@@ -640,7 +640,6 @@ packages:
   /@fastify/busboy@2.0.0:
     resolution: {integrity: sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==}
     engines: {node: '>=14'}
-    dev: true
 
   /@fontsource-variable/inter@5.0.12:
     resolution: {integrity: sha512-BuYkYLsvqLnWlXeyUvo6HpcAAgiOpIeQeVXWuxTNrJWr3NpuY5mWzizCxHnHD2gWLZOSOx0GkBqhQl7Oh6zTUQ==}
@@ -1212,7 +1211,7 @@ packages:
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
-      '@builder.io/qwik': 1.2.13(undici@5.23.0)
+      '@builder.io/qwik': 1.2.13(undici@5.25.4)
     dev: false
 
   /@vercel/build-utils@7.2.2:
@@ -1693,6 +1692,7 @@ packages:
     engines: {node: '>=10.16.0'}
     dependencies:
       streamsearch: 1.1.0
+    dev: true
 
   /bytes@3.1.0:
     resolution: {integrity: sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==}
@@ -5192,6 +5192,7 @@ packages:
   /streamsearch@1.1.0:
     resolution: {integrity: sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==}
     engines: {node: '>=10.0.0'}
+    dev: true
 
   /streamx@2.15.1:
     resolution: {integrity: sha512-fQMzy2O/Q47rgwErk/eGeLu/roaFWV0jVsogDmrszM9uIw8L5OA+t+V93MgYlufNptfjmYR1tOMWhei/Eh7TQA==}
@@ -5651,13 +5652,13 @@ packages:
     engines: {node: '>=14.0'}
     dependencies:
       busboy: 1.6.0
+    dev: true
 
   /undici@5.25.4:
     resolution: {integrity: sha512-450yJxT29qKMf3aoudzFpIciqpx6Pji3hEWaXqXmanbXF58LTAGCKxcJjxMXWu3iG+Mudgo3ZUfDB6YDFd/dAw==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.0.0
-    dev: true
 
   /unified@10.1.2:
     resolution: {integrity: sha512-pUSWAi/RAnVy1Pif2kAoeWNBa3JVrx0MId2LASj8G+7AiHWoKZNTomq6LG326T68U7/e263X6fTdcXIy7XnF7Q==}
@@ -6030,8 +6031,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod@3.21.4:
-    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
+  /zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
     dev: false
 
   /zwitch@2.0.4:
