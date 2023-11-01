@@ -6,17 +6,17 @@ settings:
 
 dependencies:
   '@builder.io/qwik':
-    specifier: 1.2.15
-    version: 1.2.15(undici@5.25.4)
+    specifier: 1.2.16
+    version: 1.2.16(@types/node@20.8.10)(undici@5.25.4)
   '@builder.io/qwik-city':
-    specifier: 1.2.15
-    version: 1.2.15
+    specifier: 1.2.16
+    version: 1.2.16(@types/node@20.8.10)
   '@fontsource-variable/inter':
     specifier: 5.0.15
     version: 5.0.15
   '@unpic/qwik':
     specifier: 0.0.30
-    version: 0.0.30(@builder.io/qwik@1.2.15)
+    version: 0.0.30(@builder.io/qwik@1.2.16)
   gray-matter:
     specifier: 4.0.3
     version: 4.0.3
@@ -56,8 +56,8 @@ devDependencies:
     specifier: 8.52.0
     version: 8.52.0
   eslint-plugin-qwik:
-    specifier: 1.2.15
-    version: 1.2.15(eslint@8.52.0)
+    specifier: 1.2.16
+    version: 1.2.16(eslint@8.52.0)
   postcss:
     specifier: 8.4.31
     version: 8.4.31
@@ -92,24 +92,33 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@builder.io/qwik-city@1.2.15:
-    resolution: {integrity: sha512-sJSxYAwiSXZN9MMsCKN2TJBkVKaEdX1rTwi0SdmyqaEKxVAdtzc2sEyAcetZijhFMEh5Zd7sxz0mtu9fQGufLQ==}
+  /@builder.io/qwik-city@1.2.16(@types/node@20.8.10):
+    resolution: {integrity: sha512-oyVRrKsWqoXY09WPIqkVGjT6pqRSjn0PmxiS29CCym8MLxQGcOEIog5WCaYlMjMiu8EDlRbRX9KsGDk31A5u7w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 2.3.0
       '@types/mdx': 2.0.9
       source-map: 0.7.4
       svgo: 3.0.2
+      undici: 5.27.0
       vfile: 6.0.1
+      vite: 4.5.0(@types/node@20.8.10)
       vite-imagetools: 5.1.2
       zod: 3.22.4
     transitivePeerDependencies:
+      - '@types/node'
+      - less
+      - lightningcss
       - rollup
+      - sass
+      - stylus
+      - sugarss
       - supports-color
+      - terser
     dev: false
 
-  /@builder.io/qwik@1.2.15(undici@5.25.4):
-    resolution: {integrity: sha512-5aiU1VL4quzEd8pGdeFfJOiN/SUYr6wu1FLEX3piqBxoJL+j8H/3jZeOl4TUZawNNYWZOckH74a3VzAXai/4ZA==}
+  /@builder.io/qwik@1.2.16(@types/node@20.8.10)(undici@5.25.4):
+    resolution: {integrity: sha512-ZadMArtIZpdeHeH2Qw5HEbGurCnKJ22i8fvZDlKybPercD8Obf6xk5ox1XcTsliodQWH3O0UJChvXArCrJR0LQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -117,6 +126,15 @@ packages:
     dependencies:
       csstype: 3.1.2
       undici: 5.25.4
+      vite: 4.5.0(@types/node@20.8.10)
+    transitivePeerDependencies:
+      - '@types/node'
+      - less
+      - lightningcss
+      - sass
+      - stylus
+      - sugarss
+      - terser
     dev: false
 
   /@cspotcode/source-map-support@0.8.1:
@@ -210,7 +228,6 @@ packages:
     cpu: [arm64]
     os: [android]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/android-arm64@0.19.3:
@@ -228,7 +245,6 @@ packages:
     cpu: [arm]
     os: [android]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/android-arm@0.19.3:
@@ -246,7 +262,6 @@ packages:
     cpu: [x64]
     os: [android]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/android-x64@0.19.3:
@@ -264,7 +279,6 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/darwin-arm64@0.19.3:
@@ -282,7 +296,6 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/darwin-x64@0.19.3:
@@ -300,7 +313,6 @@ packages:
     cpu: [arm64]
     os: [freebsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/freebsd-arm64@0.19.3:
@@ -318,7 +330,6 @@ packages:
     cpu: [x64]
     os: [freebsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/freebsd-x64@0.19.3:
@@ -336,7 +347,6 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-arm64@0.19.3:
@@ -354,7 +364,6 @@ packages:
     cpu: [arm]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-arm@0.19.3:
@@ -372,7 +381,6 @@ packages:
     cpu: [ia32]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-ia32@0.19.3:
@@ -390,7 +398,6 @@ packages:
     cpu: [loong64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-loong64@0.19.3:
@@ -408,7 +415,6 @@ packages:
     cpu: [mips64el]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-mips64el@0.19.3:
@@ -426,7 +432,6 @@ packages:
     cpu: [ppc64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-ppc64@0.19.3:
@@ -444,7 +449,6 @@ packages:
     cpu: [riscv64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-riscv64@0.19.3:
@@ -462,7 +466,6 @@ packages:
     cpu: [s390x]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-s390x@0.19.3:
@@ -480,7 +483,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-x64@0.19.3:
@@ -498,7 +500,6 @@ packages:
     cpu: [x64]
     os: [netbsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/netbsd-x64@0.19.3:
@@ -516,7 +517,6 @@ packages:
     cpu: [x64]
     os: [openbsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/openbsd-x64@0.19.3:
@@ -534,7 +534,6 @@ packages:
     cpu: [x64]
     os: [sunos]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/sunos-x64@0.19.3:
@@ -552,7 +551,6 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/win32-arm64@0.19.3:
@@ -570,7 +568,6 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/win32-ia32@0.19.3:
@@ -588,7 +585,6 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/win32-x64@0.19.3:
@@ -1062,7 +1058,6 @@ packages:
     resolution: {integrity: sha512-TlgT8JntpcbmKUFzjhsyhGfP2fsiz1Mv56im6enJ905xG1DAYesxJaeSbGqQmAw8OWPdhyJGhGSQGKRNJ45u9w==}
     dependencies:
       undici-types: 5.26.5
-    dev: true
 
   /@types/semver@7.5.0:
     resolution: {integrity: sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==}
@@ -1211,13 +1206,13 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@unpic/qwik@0.0.30(@builder.io/qwik@1.2.15):
+  /@unpic/qwik@0.0.30(@builder.io/qwik@1.2.16):
     resolution: {integrity: sha512-0/z6Zwzs+wgSTblvN5nXndhrHiXoktmPyZHexPOvOgd1cAW3lszDhOtTln06dQN71DWcTDjgN0WoX6L7O1rEBw==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
-      '@builder.io/qwik': 1.2.15(undici@5.25.4)
+      '@builder.io/qwik': 1.2.16(@types/node@20.8.10)(undici@5.25.4)
     dev: false
 
   /@vercel/build-utils@7.2.2:
@@ -2479,7 +2474,6 @@ packages:
       '@esbuild/win32-arm64': 0.18.16
       '@esbuild/win32-ia32': 0.18.16
       '@esbuild/win32-x64': 0.18.16
-    dev: true
 
   /esbuild@0.19.3:
     resolution: {integrity: sha512-UlJ1qUUA2jL2nNib1JTSkifQTcYTroFqRjwCFW4QYEKEsixXD5Tik9xML7zh2gTxkYTBKGHNH9y7txMwVyPbjw==}
@@ -2521,8 +2515,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-qwik@1.2.15(eslint@8.52.0):
-    resolution: {integrity: sha512-1bmKSI51MnKAgHnXHepBqJt9OHJUGa3psrj9YhbnOnZ/eERWIZWewcomszleHwInAvDeRGdv5nHUpeWE2Rd5/w==}
+  /eslint-plugin-qwik@1.2.16(eslint@8.52.0):
+    resolution: {integrity: sha512-GrgRYjH/ozzrOuK/j10EfmgV6Hv552fHq/0+1ULyImU5DwoiN0jTDaWOKVIl2E8LEkSBsdg8AT+pPs8kOZy1TQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       eslint: ^8.45.0
@@ -2880,7 +2874,6 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /function-bind@1.1.1:
@@ -4255,7 +4248,6 @@ packages:
     resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
-    dev: true
 
   /napi-build-utils@1.0.2:
     resolution: {integrity: sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==}
@@ -4690,7 +4682,6 @@ packages:
       nanoid: 3.3.6
       picocolors: 1.0.0
       source-map-js: 1.0.2
-    dev: true
 
   /prebuild-install@7.1.1:
     resolution: {integrity: sha512-jAXscXWMcCK8GgCoHOfIr0ODh5ai8mj63L2nWrjuAgXE6tDyYGnx4/8o/rCgU+B4JSyZBKbeZqzhtwtC3ovxjw==}
@@ -4955,7 +4946,6 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
-    dev: true
 
   /route-manifest@1.0.0:
     resolution: {integrity: sha512-qn0xJr4nnF4caj0erOLLAHYiNyzqhzpUbgDQcEHrmBoG4sWCDLnIXLH7VccNSxe9cWgbP2Kw/OjME+eH3CeRSA==}
@@ -5631,7 +5621,6 @@ packages:
 
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
-    dev: true
 
   /undici@5.23.0:
     resolution: {integrity: sha512-1D7w+fvRsqlQ9GscLBwcAJinqcZGHUKjbOmXdlE/v8BvEGXjeWAax+341q44EuTcHXXnfyKNbKRq4Lg7OzhMmg==}
@@ -5645,6 +5634,13 @@ packages:
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.0.0
+
+  /undici@5.27.0:
+    resolution: {integrity: sha512-l3ydWhlhOJzMVOYkymLykcRRXqbUaQriERtR70B9LzNkZ4bX52Fc8wbTDneMiwo8T+AemZXvXaTx+9o5ROxrXg==}
+    engines: {node: '>=14.0'}
+    dependencies:
+      '@fastify/busboy': 2.0.0
+    dev: false
 
   /unified@10.1.2:
     resolution: {integrity: sha512-pUSWAi/RAnVy1Pif2kAoeWNBa3JVrx0MId2LASj8G+7AiHWoKZNTomq6LG326T68U7/e263X6fTdcXIy7XnF7Q==}
@@ -5886,7 +5882,6 @@ packages:
       rollup: 3.28.0
     optionalDependencies:
       fsevents: 2.3.2
-    dev: true
 
   /web-streams-polyfill@3.2.1:
     resolution: {integrity: sha512-e0MO3wdXWKrLbL0DgGnUV7WHVuw9OUvL4hjgnPkIeEvESk74gAITi5G606JtZPp39cd8HA9VQzCIvA49LpPN5Q==}
