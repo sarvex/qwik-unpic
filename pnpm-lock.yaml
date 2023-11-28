@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.2.19
     version: 1.2.19(@types/node@20.10.0)(undici@5.27.0)
   '@builder.io/qwik-city':
-    specifier: 1.2.18
-    version: 1.2.18(@types/node@20.10.0)
+    specifier: 1.2.19
+    version: 1.2.19(@types/node@20.10.0)
   '@fontsource-variable/inter':
     specifier: 5.0.15
     version: 5.0.15
@@ -92,8 +92,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@builder.io/qwik-city@1.2.18(@types/node@20.10.0):
-    resolution: {integrity: sha512-MfWzMLi0MaoPpI11g4qXVF5mX6hqfjsIS3G+1FUU+x4FIJFcbTu9cMnbaw5YdMOgNdJRS5wf2M++KXVy5oyJ/w==}
+  /@builder.io/qwik-city@1.2.19(@types/node@20.10.0):
+    resolution: {integrity: sha512-RAjS1HRuRgi2YX8Gj54MIpnXtpaJyS8RrOH34ujfOlcSg9V17gcdceS24E8+llcEAYikAU6GP7T9bC5tSIRaPg==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 2.3.0
