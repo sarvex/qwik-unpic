@@ -7,16 +7,16 @@ settings:
 dependencies:
   '@builder.io/qwik':
     specifier: 1.3.5
-    version: 1.3.5(@types/node@20.11.1)(undici@5.27.0)
+    version: 1.3.5(@types/node@20.11.14)(undici@5.27.0)
   '@builder.io/qwik-city':
     specifier: 1.3.5
-    version: 1.3.5(@types/node@20.11.1)
+    version: 1.3.5(@types/node@20.11.14)
   '@fontsource-variable/inter':
     specifier: 5.0.16
     version: 5.0.16
   '@unpic/qwik':
-    specifier: 0.0.38
-    version: 0.0.38(@builder.io/qwik@1.3.5)
+    specifier: 0.0.41
+    version: 0.0.41(@builder.io/qwik@1.3.5)
   gray-matter:
     specifier: 4.0.3
     version: 4.0.3
@@ -41,8 +41,8 @@ devDependencies:
     specifier: 13.0.7
     version: 13.0.7
   '@types/node':
-    specifier: 20.11.1
-    version: 20.11.1
+    specifier: 20.11.14
+    version: 20.11.14
   '@typescript-eslint/eslint-plugin':
     specifier: 6.18.1
     version: 6.18.1(@typescript-eslint/parser@6.18.1)(eslint@8.56.0)(typescript@5.3.3)
@@ -50,8 +50,8 @@ devDependencies:
     specifier: 6.18.1
     version: 6.18.1(eslint@8.56.0)(typescript@5.3.3)
   autoprefixer:
-    specifier: 10.4.16
-    version: 10.4.16(postcss@8.4.33)
+    specifier: 10.4.17
+    version: 10.4.17(postcss@8.4.33)
   eslint:
     specifier: 8.56.0
     version: 8.56.0
@@ -62,8 +62,8 @@ devDependencies:
     specifier: 8.4.33
     version: 8.4.33
   prettier:
-    specifier: 3.2.2
-    version: 3.2.2
+    specifier: 3.2.4
+    version: 3.2.4
   tailwindcss:
     specifier: 3.4.1
     version: 3.4.1
@@ -75,7 +75,7 @@ devDependencies:
     version: 33.1.0
   vite:
     specifier: 5.0.11
-    version: 5.0.11(@types/node@20.11.1)
+    version: 5.0.11(@types/node@20.11.14)
   vite-tsconfig-paths:
     specifier: 4.2.3
     version: 4.2.3(typescript@5.3.3)(vite@5.0.11)
@@ -92,7 +92,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@builder.io/qwik-city@1.3.5(@types/node@20.11.1):
+  /@builder.io/qwik-city@1.3.5(@types/node@20.11.14):
     resolution: {integrity: sha512-8/D/2mlcBMMkX7X8GUfzRw51OvnDINUkKHlOoa+BWXhE8E9ElfIrAhu0mLqrSvR6WCz345EGn+KmIVKd0uKl+g==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
@@ -102,7 +102,7 @@ packages:
       svgo: 3.2.0
       undici: 6.3.0
       vfile: 6.0.1
-      vite: 5.0.11(@types/node@20.11.1)
+      vite: 5.0.11(@types/node@20.11.14)
       vite-imagetools: 6.2.9
       zod: 3.22.4
     transitivePeerDependencies:
@@ -117,7 +117,7 @@ packages:
       - terser
     dev: false
 
-  /@builder.io/qwik@1.3.5(@types/node@20.11.1)(undici@5.27.0):
+  /@builder.io/qwik@1.3.5(@types/node@20.11.14)(undici@5.27.0):
     resolution: {integrity: sha512-3AXsQdCKXrZ35rmZ9jyU4TXL558Dl/sGW9XlWk8rX1OBh4hVxT3YsVBt7ddxGPc9tF7aFEtTwShLadWDpBjV6Q==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -126,7 +126,7 @@ packages:
     dependencies:
       csstype: 3.1.3
       undici: 5.27.0
-      vite: 5.0.11(@types/node@20.11.1)
+      vite: 5.0.11(@types/node@20.11.14)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -1258,8 +1258,8 @@ packages:
     resolution: {integrity: sha512-qelS/Ra6sacc4loe/3MSjXNL1dNQ/GjxNHVzuChwMfmk7HuycRLVQN2qNY3XahK+fZc5E2szqQSKUyAF0E+2bg==}
     dev: true
 
-  /@types/node@20.11.1:
-    resolution: {integrity: sha512-DsXojJUES2M+FE8CpptJTKpg+r54moV9ZEncPstni1WHFmTcCzeFLnMFfyhCVS8XNOy/OQG+8lVxRLRrVHmV5A==}
+  /@types/node@20.11.14:
+    resolution: {integrity: sha512-w3yWCcwULefjP9DmDDsgUskrMoOy5Z8MiwKHr1FvqGPtx7CvJzQvxD7eKpxNtklQxLruxSXWddyeRtyud0RcXQ==}
     dependencies:
       undici-types: 5.26.5
 
@@ -1411,13 +1411,13 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@unpic/qwik@0.0.38(@builder.io/qwik@1.3.5):
-    resolution: {integrity: sha512-5I3M9a6VGrw9KF5B7GHxpvwU3VyRfJ1qCWNSlcdLxw8S6m0lapOXL5oJq0gnRlde7csMfyE12oogmtp8nAibbw==}
+  /@unpic/qwik@0.0.41(@builder.io/qwik@1.3.5):
+    resolution: {integrity: sha512-IgB/JFxbPYWCxdv0VwhNy62LRP8FaB1Hv0Vkv9sFznDpk76e9a3Vbn2AUUtpMFc1mnJVYACECl99KsogkrYeSw==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
-      '@builder.io/qwik': 1.3.5(@types/node@20.11.1)(undici@5.27.0)
+      '@builder.io/qwik': 1.3.5(@types/node@20.11.14)(undici@5.27.0)
     dev: false
 
   /@vercel/build-utils@7.5.0:
@@ -1791,16 +1791,16 @@ packages:
     resolution: {integrity: sha512-tLRNUXati5MFePdAk8dw7Qt7DpxPB60ofAgn8WRhW6a2rcimZnYBP9oxHiv0OHy+Wz7kPMG+t4LGdt31+4EmGg==}
     dev: true
 
-  /autoprefixer@10.4.16(postcss@8.4.33):
-    resolution: {integrity: sha512-7vd3UC6xKp0HLfua5IjZlcXvGAGy7cBAXTg2lyQ/8WpNhd6SiZ8Be+xm3FyBSYJx5GKcpRCzBh7RH4/0dnY+uQ==}
+  /autoprefixer@10.4.17(postcss@8.4.33):
+    resolution: {integrity: sha512-/cpVNRLSfhOtcGflT13P2794gVSgmPgTR+erw5ifnMLZb0UnSlkK4tquLmkd3BhA+nLo5tX8Cu0upUsGKvKbmg==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.21.10
-      caniuse-lite: 1.0.30001538
-      fraction.js: 4.3.6
+      browserslist: 4.22.2
+      caniuse-lite: 1.0.30001581
+      fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
       postcss: 8.4.33
@@ -1866,23 +1866,12 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /browserslist@4.21.10:
-    resolution: {integrity: sha512-bipEBdZfVH5/pwrvqc+Ub0kUPVfGUhlKxbvfD+z1BDnPEO/X98ruXGA1WP5ASpAFKan7Qr6j736IacbZQuAlKQ==}
-    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
-    hasBin: true
-    dependencies:
-      caniuse-lite: 1.0.30001570
-      electron-to-chromium: 1.4.615
-      node-releases: 2.0.14
-      update-browserslist-db: 1.0.13(browserslist@4.21.10)
-    dev: true
-
   /browserslist@4.22.2:
     resolution: {integrity: sha512-0UgcrvQmBDvZHFGdYUehrCNIazki7/lUP3kkoi/r3YB2amZbFM9J43ZRkJTXBUZK4gmx56+Sqk9+Vs9mwZx9+A==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001570
+      caniuse-lite: 1.0.30001581
       electron-to-chromium: 1.4.615
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
@@ -1932,12 +1921,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /caniuse-lite@1.0.30001538:
-    resolution: {integrity: sha512-HWJnhnID+0YMtGlzcp3T9drmBJUVDchPJ08tpUGFLs9CYlwWPH2uLgpHn8fND5pCgXVtnGS3H4QR9XLMHVNkHw==}
-    dev: true
-
-  /caniuse-lite@1.0.30001570:
-    resolution: {integrity: sha512-+3e0ASu4sw1SWaoCtvPeyXp+5PsjigkSt8OXZbF9StH5pQWbxEjLAZE3n8Aup5udop1uRiKA7a4utUk/uoSpUw==}
+  /caniuse-lite@1.0.30001581:
+    resolution: {integrity: sha512-whlTkwhqV2tUmP3oYhtNfaWGYHDdS3JYFQBKXxcUR9qqPWsRhFHhoISO2Xnl/g0xyKzht9mI1LZpiNWfMzHixQ==}
     dev: true
 
   /ccount@2.0.1:
@@ -2976,8 +2961,8 @@ packages:
       fetch-blob: 3.2.0
     dev: false
 
-  /fraction.js@4.3.6:
-    resolution: {integrity: sha512-n2aZ9tNfYDwaHhvFTkhFErqOMIb8uyzSQ+vGJBjZyanAKZVbGUQ1sngfk9FdkBw7G26O7AgNjLcecLffD1c7eg==}
+  /fraction.js@4.3.7:
+    resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
     dev: true
 
   /fs-extra@11.1.0:
@@ -4830,8 +4815,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier@3.2.2:
-    resolution: {integrity: sha512-HTByuKZzw7utPiDO523Tt2pLtEyK7OibUD9suEJQrPUCYQqrHr74GGX6VidMrovbf/I50mPqr8j/II6oBAuc5A==}
+  /prettier@3.2.4:
+    resolution: {integrity: sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -5861,17 +5846,6 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /update-browserslist-db@1.0.13(browserslist@4.21.10):
-    resolution: {integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==}
-    hasBin: true
-    peerDependencies:
-      browserslist: '>= 4.21.0'
-    dependencies:
-      browserslist: 4.21.10
-      escalade: 3.1.1
-      picocolors: 1.0.0
-    dev: true
-
   /update-browserslist-db@1.0.13(browserslist@4.22.2):
     resolution: {integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==}
     hasBin: true
@@ -5990,13 +5964,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.3.3)
-      vite: 5.0.11(@types/node@20.11.1)
+      vite: 5.0.11(@types/node@20.11.14)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@5.0.11(@types/node@20.11.1):
+  /vite@5.0.11(@types/node@20.11.14):
     resolution: {integrity: sha512-XBMnDjZcNAw/G1gEiskiM1v6yzM4GE5aMGvhWTlHAYYhxb7S3/V1s3m2LDHa8Vh6yIWYYB0iJwsEaS523c4oYA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -6024,7 +5998,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.1
+      '@types/node': 20.11.14
       esbuild: 0.19.10
       postcss: 8.4.33
       rollup: 4.5.0
